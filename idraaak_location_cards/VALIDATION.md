@@ -1,6 +1,10 @@
 # Validation — 2026-10-27
 
-Version: 0.1.0 preview. Intended compatibility: QGIS 3.34 through 3.x.
+Version: 0.1.1 preview. Intended compatibility: QGIS 3.34 through 3.x.
+
+## Metadata correction
+
+The first 0.1.0 upload was rejected before a plugin record was created because the author metadata contained a slash. Version 0.1.1 uses `author=Nedal Sh.`. Only metadata, the displayed preview version and documentation changed; location-card behavior is unchanged. The tests below were completed on the same 0.1.0 implementation before this metadata-only correction.
 
 ## Completed
 
@@ -15,7 +19,7 @@ Version: 0.1.0 preview. Intended compatibility: QGIS 3.34 through 3.x.
 
 - Full interactive ZIP installation and browser print behavior remain unverified. A QGIS desktop launch was attempted in the isolated headless environment but failed during application initialization before plugin code ran. This is not evidence of either plugin success or plugin failure. Windows and macOS have not been tested; QGIS 4 compatibility is not claimed.
 - Source and issue tracker are now public; metadata links point to the project repository and its Issues page.
-- Add actual installation/usage documentation to the homepage article, or use the public repository README as the homepage instead.
+- The homepage article now includes actual installation and export instructions.
 - Capture a QGIS desktop screenshot and recheck current repository requirements.
 - Submit once. No repository submission, public listing, backlink or indexation is claimed by this preview.
 

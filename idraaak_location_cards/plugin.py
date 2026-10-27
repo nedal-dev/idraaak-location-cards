@@ -92,7 +92,7 @@ def collect_locations(layer, name_field, selected_only=True):
 class LocationCardsDialog(QDialog):
     def __init__(self, iface):
         super().__init__(iface.mainWindow())
-        self.setWindowTitle("Idraaak Location Cards — preview 0.1.0")
+        self.setWindowTitle("Idraaak Location Cards — preview 0.1.1")
         self.setMinimumWidth(500)
         layout = QVBoxLayout(self)
         intro = QLabel(
