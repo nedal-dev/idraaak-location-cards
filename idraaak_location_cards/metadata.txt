@@ -1,0 +1,20 @@
+[general]
+name=Idraaak Location Cards
+description=Export selected point features as printable Arabic or English location cards with Google Maps links.
+about=Creates local HTML cards with place names and WGS84 coordinates. Batch export, Arabic RTL and English layouts, and browser print-to-PDF. No uploads or dependencies beyond QGIS. Single-point geometries only, at most 1000 features per export. Static locations, not live tracking. Experimental preview build.
+version=0.1.0
+qgisMinimumVersion=3.34
+qgisMaximumVersion=3.99
+author=Idraaak / Nedal Sh.
+email=idraaak.com@gmail.com
+homepage=https://idraaak.com/share-live-location-whatsapp-google-maps/
+repository=https://github.com/nedal-dev/idraaak-location-cards
+tracker=https://github.com/nedal-dev/idraaak-location-cards/issues
+category=Web
+tags=point,location,print,html,arabic,google maps
+icon=icon.svg
+experimental=True
+deprecated=False
+hasProcessingProvider=no
+changelog=0.1.0 Preview: printable batch location cards with WGS84 coordinates and Arabic/English layouts.
+license=GPL-3.0-or-later
